@@ -1,6 +1,6 @@
 {
   "name": "Fan controller",
-  "version": "1",
+  "version": "7",
   "slug": "control_fan",
   "description": "Addon for RP4 fan controlling",
   "arch": ["armv7"],
