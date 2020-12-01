@@ -1,0 +1,20 @@
+{
+  "name": "Fan controller",
+  "version": "1",
+  "slug": "control_fan",
+  "description": "Addon for RP4 fan controlling",
+  "arch": ["armv7"],
+  "startup": "application",
+  "boot": "auto",
+  "privileged": ["NET_ADMIN", "SYS_ADMIN", "SYS_RAWIO", "SYS_TIME", "SYS_NICE", "SYS_RESOURCE", "SYS_PTRACE", "SYS_MODULE"],
+  "options": {
+     "ledNumber": 17,
+	 "onTemperature":55,
+	 "offTemperature":48
+   },
+   "schema": {
+     "ledNumber": "int",
+	 "onTemperature":"int",
+	 "offTemperature":"int"
+   }
+}
