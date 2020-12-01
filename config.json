@@ -6,7 +6,7 @@
   "arch": ["armv7"],
   "startup": "application",
   "boot": "auto",
-  "privileged": ["NET_ADMIN", "SYS_ADMIN", "SYS_RAWIO", "SYS_TIME", "SYS_NICE", "SYS_RESOURCE", "SYS_PTRACE", "SYS_MODULE"],
+  "full_access": true,
   "options": {
      "ledNumber": 17,
 	 "onTemperature":55,
